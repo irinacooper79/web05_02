@@ -1,4 +1,14 @@
-package exception;
+package com.github.deafmist.socksstore.exception;
 
-public class NoSuchSocksCountException {
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(code = HttpStatus.BAD_REQUEST)
+public class NoSuchSocksCountException extends RuntimeException {
+    public NoSuchSocksCountException() {
+    }
+
+    public NoSuchSocksCountException(String message) {
+        super(message);
+    }
 }
