@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class IllegalSizeException extends RuntimeException {
     public IllegalSizeException() {
     }
-
     public IllegalSizeException(String message) {
         super(message);
     }

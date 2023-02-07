@@ -24,7 +24,6 @@ public enum Size {
         }
         throw new IllegalSizeException("Такого размера носков не существует");
     }
-
     public int getFrom() {
         return from;
     }

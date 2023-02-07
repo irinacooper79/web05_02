@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class IllegalQuantityException extends RuntimeException {
     public IllegalQuantityException() {
     }
-
     public IllegalQuantityException(String message) {
         super(message);
     }

@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class IllegalCottonPartException extends RuntimeException {
     public IllegalCottonPartException() {
     }
-
     public IllegalCottonPartException(String message) {
         super(message);
     }

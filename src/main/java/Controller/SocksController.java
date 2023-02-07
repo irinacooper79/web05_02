@@ -26,7 +26,6 @@ public class SocksController {
     public ResponseEntity<Socks> updateSocks(@RequestBody SocksRequest socksRequest) {
         return ResponseEntity.ok(socksService.update(socksRequest));
     }
-
     @GetMapping
     public ResponseEntity<Integer> getSocks(@RequestParam Color color,
                                             @RequestParam int size,

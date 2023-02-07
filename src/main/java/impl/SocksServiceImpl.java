@@ -57,7 +57,6 @@ public class SocksServiceImpl implements SocksService {
 
         return socksList.get(index);
     }
-
     @Override
     public int get(Color color, int size, int cottonMin, int cottonMax) {
         int total = 0;
@@ -69,7 +68,6 @@ public class SocksServiceImpl implements SocksService {
         }
         return total;
     }
-
     private Socks mapToSocks(SocksRequest socksRequest) {
         return new Socks(socksRequest.getColor(), socksRequest.getSize(), socksRequest.getCottonPart(), socksRequest.getQuantity());
     }

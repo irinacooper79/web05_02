@@ -39,7 +39,6 @@ public class Socks {
         }
         this.quantity = quantity;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

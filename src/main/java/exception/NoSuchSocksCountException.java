@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class NoSuchSocksCountException extends RuntimeException {
     public NoSuchSocksCountException() {
     }
-
     public NoSuchSocksCountException(String message) {
         super(message);
     }
